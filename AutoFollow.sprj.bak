@@ -1,14 +1,14 @@
-ENVT0100,LM:2019/02/15 11:28:20:242,DS:0000007092,CS:10102,MA:A0-8C-FD-1D-DD-70,EI:           
+ENVT0100,LM:2019/02/15 12:10:53:548,DS:0000007104,CS:20741,MA:A0-8C-FD-1D-DD-70,EI:           
 SystemProperties {
 	sRCVersion="7.3.2"
 	sRCRevision=""
 	sGUID="cd8e642c-e9cf-47a3-962e-b0cc6ee20425"
 	sPath="C:\\EpsonRC70\\Projects\\Wisematic\\VisionTestailua\\AutoFollow\\"
 	sCreated="12.2.2019 12.12.49"
-	sLastModified="15.2.2019 13.28.11"
+	sLastModified="15.2.2019 14.10.53"
 	bBuildComplete=False
 	bFirstBuildComplete=True
-	bRebuildRequired=True
+	bRebuildRequired=False
 	bClearControllerProject=False
 	bClearGlobalPreserves=False
 }
@@ -32,9 +32,9 @@ nRobotCount=1
 nProgramFileCount=1
 ProgramFile1 {
 	sName="Main.prg"
-	bCompiled=True
+	bCompiled=False
 	bStoreInController=True
-	sTimeSavedInController="1.1.0001 0.00.00"
+	sTimeSavedInController="15.2.2019 12.06.52"
 }
 nIncludeFileCount=0
 nPointFileCount=4
@@ -42,22 +42,22 @@ PointFile1 {
 	sName="robot1.pts"
 	nRobot=1
 	bDefault=True
-	sTimeSavedInController="1.1.0001 0.00.00"
+	sTimeSavedInController="15.2.2019 12.04.45"
 }
 PointFile2 {
 	sName="Calib_OnRobotCam.pts"
 	nRobot=1
-	sTimeSavedInController="1.1.0001 0.00.00"
+	sTimeSavedInController="15.2.2019 12.04.45"
 }
 PointFile3 {
 	sName="Calib_J2.pts"
 	nRobot=1
-	sTimeSavedInController="1.1.0001 0.00.00"
+	sTimeSavedInController="15.2.2019 12.04.45"
 }
 PointFile4 {
 	sName="Calib_TableCam.pts"
 	nRobot=1
-	sTimeSavedInController="1.1.0001 0.00.00"
+	sTimeSavedInController="15.2.2019 12.04.45"
 }
 nForceFileCount=0
 OperatorSettings {

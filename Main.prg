@@ -43,28 +43,25 @@ Function autofollow 'Auto follow program
 	Boolean found
 	String msg$
 	
-	Power Low
+	Motor On
+	Power High
 	Tool 1
 	Jump safept
 	' Jump camshot
 	
 	Do
-		
+		ResetElapsedTime
 		VRun Arrow
 		VGet Arrow.ArrowLocate.RobotXYU, found, x, y, u
 		
-		If found = True Then
-			Print "The arrow was found!"
-			washpos = XY(x, y, -10, u) 'Set pos to move to
+		If found Then
+			Print "Arrow found, time (s): ", ElapsedTime
 			Arm 1
-			Go washpos
+			Go XY(x, y, -10, u)
 			Arm 0
-			msg$ = "The arrow found!"
 		Else
-			msg$ = "The arrow was not found!"
+			Print "Arrow NOT found, time (s):", ElapsedTime
 		EndIf
-		' Wait 0.5
-		Print msg$
 	Loop
 Fend
 
