@@ -1,4 +1,4 @@
-ENVT0100,LM:2019/02/15 12:20:41:582,DS:0000010735,CS:08217,MA:A0-8C-FD-1D-DD-70,EI:           
+ENVT0100,LM:2019/02/15 12:51:39:079,DS:0000011376,CS:09240,MA:A0-8C-FD-1D-DD-70,EI:           
 sRCVersion="7.3.2"
 sGUID="cd8e642c-e9cf-47a3-962e-b0cc6ee20425"
 nCameraNumber=1
@@ -458,13 +458,13 @@ Sequence6 {
 		nPolarity=1
 		bRejectOnEdge=False
 		rSearchWinAngle=0
-		nSearchWinCenterX=839
-		nSearchWinCenterY=600
-		nSearchWinHeight=1174
-		nSearchWinLeft=96
-		nSearchWinTop=13
+		nSearchWinCenterX=794
+		nSearchWinCenterY=594
+		nSearchWinHeight=1186
+		nSearchWinLeft=5
+		nSearchWinTop=1
 		nSearchWinType=1
-		nSearchWinWidth=1486
+		nSearchWinWidth=1577
 		nSizeToFind=1
 		nSort=0
 		bThresholdAuto=False
@@ -476,7 +476,7 @@ Sequence6 {
 		rFrameVectorAngle2=0
 	}
 }
-nCalibCount=2
+nCalibCount=3
 Calib1 {
 	sApproachPoint=""
 	bAutoCamPoints=False
@@ -535,6 +535,40 @@ Calib2 {
 	rRobotUOffset=0
 	bShowConfirmation=True
 	nTargetSequence=4
+	bTwoRefPoints=False
+	nUpwardLamp=-1
+	nUpwardSequence=0
+	bCalComplete=True
+	bPointsTaught=True
+	nCalVideoWidth=1600
+	nCalVideoHeight=1200
+	bReverseCameraZ=False
+	bUseRobotUOffset2=True
+}
+Calib3 {
+	sApproachPoint=""
+	bAutoCamPoints=True
+	bAutoReference=False
+	nAutoRefMode=1
+	nCamera=2
+	nCameraOrientation=3
+	bDistCorrectEnabled=False
+	nDistCorrectTargetSeq=4
+	nLamp=-1
+	nLampDelay=0
+	nMotionDelay=500
+	sName="TableCam_2019021"
+	nReferenceType=3
+	nRobotAccel=10
+	nRobotArm=0
+	rRobotLimZ=0
+	nRobotLocal=0
+	nRobotNumber=1
+	nRobotSpeed=10
+	nRobotTool=0
+	rRobotUOffset=0
+	bShowConfirmation=True
+	nTargetSequence=6
 	bTwoRefPoints=False
 	nUpwardLamp=-1
 	nUpwardSequence=0
