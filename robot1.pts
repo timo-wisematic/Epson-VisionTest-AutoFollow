@@ -1,10 +1,10 @@
-ENVT0100,LM:2019/02/13 11:04:05:324,DS:0000001404,CS:17963,MA:54-E1-AD-99-41-8E,EI:           
+ENVT0100,LM:2019/02/15 12:20:41:237,DS:0000001780,CS:09314,MA:A0-8C-FD-1D-DD-70,EI:           
 sVersion="2.0.0"
 bDisplayR=False
 bDisplayS=False
 bDisplayT=False
 nNumberOfJoints=4
-nNumberOfPoints=4
+nNumberOfPoints=5
 Point1 {
 	nNumber=0
 	sLabel="camshot"
@@ -92,6 +92,32 @@ Point4 {
 	rY=-106.483
 	rZ=-37.095
 	rU=39.417
+	rV=0
+	rW=0
+	rR=0
+	rS=0
+	rT=0
+	nLocal=0
+	nHand=2
+	nElbow=1
+	nWrist=1
+	nJ1Flag=0
+	nJ2Flag=0
+	nJ4Flag=0
+	nJ6Flag=0
+	rJ1Angle=0
+	rJ4Angle=0
+	bSimVisible=False
+}
+Point5 {
+	nNumber=10
+	sLabel="TableCam_Center"
+	sDescription="Vacuum tool is (close to) the center of the table mount camera FOV"
+	nUndefined=0
+	rX=374.412
+	rY=-105.417
+	rZ=-39.299
+	rU=-0.002
 	rV=0
 	rW=0
 	rR=0

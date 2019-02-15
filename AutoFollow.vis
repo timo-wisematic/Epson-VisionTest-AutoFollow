@@ -1,8 +1,8 @@
-ENVT0100,LM:2019/02/15 11:28:11:573,DS:0000009274,CS:11809,MA:A0-8C-FD-1D-DD-70,EI:           
-sRCVersion="7.3.3"
+ENVT0100,LM:2019/02/15 12:20:41:582,DS:0000010735,CS:08217,MA:A0-8C-FD-1D-DD-70,EI:           
+sRCVersion="7.3.2"
 sGUID="cd8e642c-e9cf-47a3-962e-b0cc6ee20425"
 nCameraNumber=1
-nSequenceCount=5
+nSequenceCount=6
 Sequence1 {
 	bAsyncMode=True
 	nCalibration=1
@@ -390,6 +390,81 @@ Sequence5 {
 		nSearchWinTop=0
 		nSearchWinType=1
 		nSearchWinWidth=1599
+		nSizeToFind=1
+		nSort=0
+		bThresholdAuto=False
+		nThresholdColor=1
+		nThresholdHigh=128
+		nThresholdLow=0
+		rFrameVectorLength1=0
+		rFrameVectorAngle1=0
+		rFrameVectorAngle2=0
+	}
+}
+Sequence6 {
+	bAsyncMode=True
+	nCalibration=0
+	nCamera=2
+	nCameraBrightness=128
+	nCameraContrast=0
+	nExposureDelay=0
+	nExposureTime=0
+	sGridColor="DarkGray"
+	rGridPitchX=100
+	rGridPitchY=100
+	bGridShow=False
+	nGridType=1
+	nGridUnits=1
+	bHDRMode=False
+	nImageBuffer=0
+	nImageColor=1
+	sImageFile="None"
+	rImageFileScale=0
+	nImageSize=6
+	nImageSource=1
+	sName="TableCam_test_1"
+	nRuntimeAcquire=1
+	bRuntimeFreeze=True
+	bShowProcessing=True
+	bStrobeBlackVideo=True
+	nStrobeDelay=0
+	nStrobeTime=0
+	nTriggerDebounce=0
+	nTriggerMode=1
+	nVideoWidth=1600
+	nVideoHeight=1200
+	nStepCount=1
+	Step1 {
+		nObjectType=2
+		sObjectTypeName="Blob"
+		bAbortSeqOnFail=False
+		sCaption=""
+		nCenterPointObject=0
+		nCenterPntObjResult=1
+		nCenterPntOffsetX=0
+		nCenterPntOffsetY=0
+		bCenterPntRotOffset=False
+		sFailColor="Red"
+		nFrame=0
+		nFrameResult=1
+		nGraphics=1
+		sLabelBackColor="Transparent"
+		nMaxArea=300000
+		nMinArea=100000
+		sName="SuctionTool"
+		nNumberToFind=1
+		sPassColor="LightGreen"
+		nPassType=1
+		nPolarity=1
+		bRejectOnEdge=False
+		rSearchWinAngle=0
+		nSearchWinCenterX=839
+		nSearchWinCenterY=600
+		nSearchWinHeight=1174
+		nSearchWinLeft=96
+		nSearchWinTop=13
+		nSearchWinType=1
+		nSearchWinWidth=1486
 		nSizeToFind=1
 		nSort=0
 		bThresholdAuto=False

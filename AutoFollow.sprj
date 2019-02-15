@@ -1,11 +1,11 @@
-ENVT0100,LM:2019/02/15 12:10:54:508,DS:0000007102,CS:08563,MA:A0-8C-FD-1D-DD-70,EI:           
+ENVT0100,LM:2019/02/15 12:28:56:276,DS:0000007102,CS:10103,MA:A0-8C-FD-1D-DD-70,EI:           
 SystemProperties {
 	sRCVersion="7.3.2"
 	sRCRevision=""
 	sGUID="cd8e642c-e9cf-47a3-962e-b0cc6ee20425"
 	sPath="C:\\EpsonRC70\\Projects\\Wisematic\\VisionTestailua\\AutoFollow\\"
 	sCreated="12.2.2019 12.12.49"
-	sLastModified="15.2.2019 14.10.53"
+	sLastModified="15.2.2019 14.28.54"
 	bBuildComplete=True
 	bFirstBuildComplete=True
 	bRebuildRequired=False
@@ -34,7 +34,7 @@ ProgramFile1 {
 	sName="Main.prg"
 	bCompiled=True
 	bStoreInController=True
-	sTimeSavedInController="15.2.2019 12.10.53"
+	sTimeSavedInController="15.2.2019 12.28.54"
 }
 nIncludeFileCount=0
 nPointFileCount=4
@@ -42,7 +42,7 @@ PointFile1 {
 	sName="robot1.pts"
 	nRobot=1
 	bDefault=True
-	sTimeSavedInController="15.2.2019 12.04.45"
+	sTimeSavedInController="15.2.2019 12.20.41"
 }
 PointFile2 {
 	sName="Calib_OnRobotCam.pts"

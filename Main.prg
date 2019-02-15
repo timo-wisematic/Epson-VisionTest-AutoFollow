@@ -64,7 +64,29 @@ Function autofollow 'Auto follow program
 		EndIf
 	Loop
 Fend
-
+Function TableCam_test_1
+	Real CamX, CamY, CamU
+	Boolean found
+	
+	Motor On
+	Power High
+	Tool 1
+	Jump TableCam_Center
+	
+	ResetElapsedTime
+	VRun TableCam_test_1
+	VGet TableCam_test_1.SuctionTool.RobotXYU, found, CamX, CamY, CamU
+	
+	If found Then
+		Print "Tool found, time (s): ", ElapsedTime
+		Print "X Diff: ", CX(Here) - CamX
+		Print "Y Diff: ", CY(Here) - CamY
+		Print "U Diff: ", CU(Here) - CamU
+		
+	Else
+		Print "Tool NOT found, time (s):", ElapsedTime
+	EndIf
+Fend
 'Function main
 '	Real area
 '	Boolean found
