@@ -1,10 +1,10 @@
-ENVT0100,LM:2019/02/15 12:20:41:237,DS:0000001780,CS:09314,MA:A0-8C-FD-1D-DD-70,EI:           
+ENVT0100,LM:2019/02/19 07:38:32:749,DS:0000002090,CS:29719,MA:A0-8C-FD-1D-DD-70,EI:           
 sVersion="2.0.0"
 bDisplayR=False
 bDisplayS=False
 bDisplayT=False
 nNumberOfJoints=4
-nNumberOfPoints=5
+nNumberOfPoints=6
 Point1 {
 	nNumber=0
 	sLabel="camshot"
@@ -118,6 +118,32 @@ Point5 {
 	rY=-105.417
 	rZ=-39.299
 	rU=-0.002
+	rV=0
+	rW=0
+	rR=0
+	rS=0
+	rT=0
+	nLocal=0
+	nHand=2
+	nElbow=1
+	nWrist=1
+	nJ1Flag=0
+	nJ2Flag=0
+	nJ4Flag=0
+	nJ6Flag=0
+	rJ1Angle=0
+	rJ4Angle=0
+	bSimVisible=False
+}
+Point6 {
+	nNumber=11
+	sLabel="TableCam_Offset"
+	sDescription=""
+	nUndefined=0
+	rX=379.412
+	rY=-100.416
+	rZ=-39.299
+	rU=-0.003
 	rV=0
 	rW=0
 	rR=0

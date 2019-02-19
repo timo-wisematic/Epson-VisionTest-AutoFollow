@@ -65,26 +65,47 @@ Function autofollow 'Auto follow program
 	Loop
 Fend
 Function TableCam_test_1
-	Real CamX, CamY, CamU
-	Boolean found
-	
 	Motor On
 	Power High
 	Tool 1
+	
 	Jump TableCam_Center
+	TableCam_test_1_MV()
+	
+	Go TableCam_Center +X(5) +Y(5)
+	TableCam_test_1_MV()
+	
+	Go TableCam_Center +X(-5) +Y(-5)
+	TableCam_test_1_MV()
+	
+	Go TableCam_Center +X(5) +Y(-5)
+	TableCam_test_1_MV()
+	
+	Go TableCam_Center +X(-5) +Y(5)
+	TableCam_test_1_MV()
+	
+
+Fend
+Function TableCam_test_1_MV
+	
+	Real CamX, CamY, CamU, RobotX, RobotY, RobotU
+	Boolean CamFound, RobotFound
 	
 	ResetElapsedTime
 	VRun TableCam_test_1
-    VGet TableCam_test_1.SuctionTool.RobotXYU, found, CamX, CamY, CamU
-    'VGet TableCam_test_1.SuctionTool.CameraXYU, found, CamX, CamY, CamU
-    'VGet TableCam_test_1.AllFound, found
+    VGet TableCam_test_1.SuctionTool.RobotXYU, RobotFound, RobotX, RobotY, RobotU
+    VGet TableCam_test_1.SuctionTool.CameraXYU, CamFound, CamX, CamY, CamU
 	
-	If found Then
+	Print ""
+	If RobotFound And CamFound Then
 		Print "Tool found, time (s): ", ElapsedTime
-		Print "X Diff: ", CX(Here) - CamX
-		Print "Y Diff: ", CY(Here) - CamY
-		Print "U Diff: ", CU(Here) - CamU
-		
+		Print "X Diff: ", CX(Here) - RobotX
+		Print "Y Diff: ", CY(Here) - RobotY
+		Print "U Diff: ", CU(Here) - RobotU
+		Print ""
+		Print "Camera X: ", CamX
+		Print "Camera Y: ", CamY
+		Print "Camera U: ", CamU
 	Else
 		Print "Tool NOT found, time (s):", ElapsedTime
 	EndIf
