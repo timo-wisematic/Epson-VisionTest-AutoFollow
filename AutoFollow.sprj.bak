@@ -1,11 +1,11 @@
-ENVT0100,LM:2019/02/15 12:51:39:123,DS:0000007304,CS:13314,MA:A0-8C-FD-1D-DD-70,EI:           
+ENVT0100,LM:2019/02/19 07:18:12:486,DS:0000007300,CS:12812,MA:A0-8C-FD-1D-DD-70,EI:           
 SystemProperties {
 	sRCVersion="7.3.2"
 	sRCRevision=""
 	sGUID="cd8e642c-e9cf-47a3-962e-b0cc6ee20425"
 	sPath="C:\\EpsonRC70\\Projects\\Wisematic\\VisionTestailua\\AutoFollow\\"
 	sCreated="12.2.2019 12.12.49"
-	sLastModified="15.2.2019 14.51.21"
+	sLastModified="19.2.2019 9.18.12"
 	bBuildComplete=False
 	bFirstBuildComplete=True
 	bRebuildRequired=False
@@ -34,7 +34,7 @@ ProgramFile1 {
 	sName="Main.prg"
 	bCompiled=False
 	bStoreInController=True
-	sTimeSavedInController="1.1.0001 0.00.00"
+	sTimeSavedInController="19.2.2019 7.16.31"
 }
 nIncludeFileCount=0
 nPointFileCount=6
@@ -62,12 +62,12 @@ PointFile4 {
 PointFile5 {
 	sName="TableCam20190215.pts"
 	nRobot=1
-	sTimeSavedInController="15.2.2019 12.48.36"
+	sTimeSavedInController="1.1.0001 0.00.00"
 }
 PointFile6 {
 	sName="TableCam_2019021.pts"
 	nRobot=1
-	sTimeSavedInController="15.2.2019 12.51.38"
+	sTimeSavedInController="1.1.0001 0.00.00"
 }
 nForceFileCount=0
 OperatorSettings {

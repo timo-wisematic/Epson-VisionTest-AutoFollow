@@ -75,7 +75,9 @@ Function TableCam_test_1
 	
 	ResetElapsedTime
 	VRun TableCam_test_1
-	VGet TableCam_test_1.SuctionTool.RobotXYU, found, CamX, CamY, CamU
+    VGet TableCam_test_1.SuctionTool.RobotXYU, found, CamX, CamY, CamU
+    'VGet TableCam_test_1.SuctionTool.CameraXYU, found, CamX, CamY, CamU
+    'VGet TableCam_test_1.AllFound, found
 	
 	If found Then
 		Print "Tool found, time (s): ", ElapsedTime

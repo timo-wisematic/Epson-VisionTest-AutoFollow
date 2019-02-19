@@ -1,4 +1,4 @@
-ENVT0100,LM:2019/02/15 12:51:39:079,DS:0000011376,CS:09240,MA:A0-8C-FD-1D-DD-70,EI:           
+ENVT0100,LM:2019/02/19 07:17:19:185,DS:0000011403,CS:04406,MA:A0-8C-FD-1D-DD-70,EI:           
 sRCVersion="7.3.2"
 sGUID="cd8e642c-e9cf-47a3-962e-b0cc6ee20425"
 nCameraNumber=1
@@ -403,7 +403,7 @@ Sequence5 {
 }
 Sequence6 {
 	bAsyncMode=True
-	nCalibration=0
+	nCalibration=3
 	nCamera=2
 	nCameraBrightness=128
 	nCameraContrast=0
@@ -438,6 +438,7 @@ Sequence6 {
 		nObjectType=2
 		sObjectTypeName="Blob"
 		bAbortSeqOnFail=False
+		bCalRobotPlacePos=False
 		sCaption=""
 		nCenterPointObject=0
 		nCenterPntObjResult=1
