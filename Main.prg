@@ -65,6 +65,8 @@ Function autofollow 'Auto follow program
 	Loop
 Fend
 Function TableCam_test_1
+' Testing how table mounted camera stuff works.
+' The sequence below works, but apparently calibration is a little bit off since 
 	Motor On
 	Power High
 	Tool 1

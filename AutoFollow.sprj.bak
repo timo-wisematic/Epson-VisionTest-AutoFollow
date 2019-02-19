@@ -1,11 +1,11 @@
-ENVT0100,LM:2019/02/19 07:43:40:593,DS:0000007301,CS:16463,MA:A0-8C-FD-1D-DD-70,EI:           
+ENVT0100,LM:2019/02/19 07:52:05:848,DS:0000007301,CS:17480,MA:A0-8C-FD-1D-DD-70,EI:           
 SystemProperties {
 	sRCVersion="7.3.2"
 	sRCRevision=""
 	sGUID="cd8e642c-e9cf-47a3-962e-b0cc6ee20425"
 	sPath="C:\\EpsonRC70\\Projects\\Wisematic\\VisionTestailua\\AutoFollow\\"
 	sCreated="12.2.2019 12.12.49"
-	sLastModified="19.2.2019 9.43.40"
+	sLastModified="19.2.2019 9.52.05"
 	bBuildComplete=False
 	bFirstBuildComplete=True
 	bRebuildRequired=False
@@ -34,7 +34,7 @@ ProgramFile1 {
 	sName="Main.prg"
 	bCompiled=False
 	bStoreInController=True
-	sTimeSavedInController="19.2.2019 7.42.52"
+	sTimeSavedInController="19.2.2019 7.43.40"
 }
 nIncludeFileCount=0
 nPointFileCount=6
